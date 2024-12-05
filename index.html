@@ -1,1 +1,100 @@
-Hello World
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .intro h2 {
+            margin-top: 20px;
+        }
+        .bio, .contact {
+            margin-top: 20px;
+        }
+        .bio p, .contact p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人主页</h1>
+    </header>
+
+    <section class="intro">
+        <img src="https://via.placeholder.com/150" alt="头像">
+        <h2>张三</h2>
+        <p>前端开发工程师 | 技术爱好者 | 博客作者</p>
+    </section>
+
+    <section class="bio">
+        <h3>个人简介</h3>
+        <p>大家好，我是张三，一名前端开发工程师。喜欢在编程中探索新技术，也喜欢分享我的学习经验。我有丰富的 Web 开发经验，熟悉 HTML, CSS, JavaScript 以及一些前端框架如 React 和 Vue。</p>
+    </section>
+
+    <section class="contact">
+        <h3>联系方式</h3>
+        <p>邮箱: zhangsan@example.com</p>
+        <p>微信: zhangsan_wechat</p>
+        <p>GitHub: <a href="https://github.com/zhangsan" target="_blank">https://github.com/zhangsan</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 张三. 保留所有权利.</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/zhangsan" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/zhangsan" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/zhangsan" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
