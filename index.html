@@ -75,29 +75,28 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Other Papers</heading>
+                <heading>Projects</heading>
               </td>
             </tr>
           </tbody></table>
 
-          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:15px;width:100%;vertical-align:middle">
-                <papertitle>Towards a Unified View of Preference Learning for Large Language Models: A Survey</papertitle>
-                <br>
-                <a href="https://github.com/KbsdJames" target="_blank">Bofei Gao</a>, Feifan Song, <a href="https://github.com/yibomiao" target="_blank">Yibo Miao</a>, ..., <strong>Shanghaoran Quan</strong>, ...
-                <br>
-                <em>Preprint</em>
-                <br>
-                <a href="https://arxiv.org/abs/2409.02795" target="_blank">[Paper]</a>
-                &nbsp
-                &nbsp
-                <a href="https://github.com/kbsdjames/awesome-LLM-preference-learning" target="_blank">[Repo]</a>
-                <br>
-              </td>
-            </tr>
-      
-          </tbody></table> -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:15px;width:100%;vertical-align:middle"><img src='images/publications/MinerU.png', width="300px">
+                  <papertitle>MinerU</papertitle>
+                  <br>
+                  <!-- <a href="https://github.com/KbsdJames" target="_blank">Bofei Gao</a>, Feifan Song, <a href="https://github.com/yibomiao" target="_blank">Bin Wang</a>, ..., <strong>Junbo Niu</strong>, ...
+                  <a href="https://arxiv.org/abs/2409.02795" target="_blank">[Paper]</a> -->
+                  <!-- &nbsp
+                  &nbsp -->
+                  <a href="https://github.com/opendatalab/MinerU" target="_blank">[Repo]</a>
+                  <span id="github-stars"></span>
+                  <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -211,6 +210,16 @@
     </tbody>
   </table>
 
+  <script>
+    async function fetchGitHubStars() {
+      const response = await fetch('https://api.github.com/repos/opendatalab/MinerU');
+      const repo = await response.json();
+      const stars = repo.stargazers_count;
+      document.getElementById('github-stars').textContent = `⭐ ${stars} stars`;
+    }
+  
+    fetchGitHubStars();
+  </script>
   <!-- <center>
     <a href="https://clustrmaps.com/site/1c1xv"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=U_Z9n6hRSfGKylPNsotMBlZO3PxW7GlbdAkd4z0QbGg&cl=ffffff" /></a>
   </center> -->
