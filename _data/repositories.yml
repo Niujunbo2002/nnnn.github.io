@@ -1,0 +1,9 @@
+github_users:
+  - Niujunbo2002
+
+repo_description_lines_max: 2
+
+github_repos:
+  - Niujunbo2002/NativeRes-LLaVA
+  - JoeLeelyf/OVO-Bench
+  - InternLM/InternLM-XComposer

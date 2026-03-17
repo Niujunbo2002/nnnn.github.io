@@ -1,0 +1,20 @@
+groups:
+  - title: Research Notes
+    entries:
+      - title: MinerU-Diffusion
+        date: Mar 2026
+        url: /blog/2026/mineru-diffusion/
+        description: Placeholder page for upcoming notes on MinerU-Diffusion.
+      - title: MinerU 2.0
+        date: Mar 2026
+        url: /blog/2025/mineru-2-0/
+        description: Release notes for MinerU 2.0, including compact modeling, document parsing capabilities, and high-throughput inference.
+      - title: Foundation Models and Multimodal Reasoning
+        date: Coming soon
+        description: Notes on LLMs, foundation models, multimodal reasoning, and practical system design.
+      - title: Online Video Understanding
+        date: Coming soon
+        description: Reading notes and implementation observations on streaming video understanding systems.
+      - title: Building Document Understanding Systems
+        date: Coming soon
+        description: Write-ups around document parsing, evaluation, and high-resolution modeling.
