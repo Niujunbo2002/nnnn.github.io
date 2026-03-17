@@ -7,14 +7,14 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/nnnn.github.io/";
     },
   },{id: "nav-blogs",
           title: "blogs",
           description: "notes, readings, and project logs.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blogs/";
+            window.location.href = "/nnnn.github.io/blogs/";
           },
         },{id: "post-mineru-2-0",
         
@@ -24,7 +24,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/mineru-2-0/";
+            window.location.href = "/nnnn.github.io/blog/2025/mineru-2-0/";
           
         },
       },{id: "news-joined-shanghai-ai-laboratory-opendatalab-as-a-research-intern",
@@ -41,7 +41,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CVofJunboNiu_v1.pdf", "_blank");
+          window.open("/nnnn.github.io/assets/pdf/CVofJunboNiu_v1.pdf", "_blank");
         },
       },{
         id: 'social-email',

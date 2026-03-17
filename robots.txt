@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nnnn.github.io/sitemap.xml
+Sitemap: https://niujunbo2002.github.io/nnnn.github.io/sitemap.xml
