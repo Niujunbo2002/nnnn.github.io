@@ -213,6 +213,13 @@
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
       {% endif %}
+      {% if entry.modelcard %}
+        {% if entry.modelcard contains '://' %}
+          <a href="{{ entry.modelcard }}" class="btn btn-sm z-depth-0" role="button">Model Card</a>
+        {% else %}
+          <a href="{{ entry.modelcard | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Model Card</a>
+        {% endif %}
+      {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>

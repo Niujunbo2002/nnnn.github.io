@@ -24,12 +24,12 @@ latest_posts:
 
 ## About Me
 
-I am currently a Ph.D. student in EECS at Peking University, advised by [Wentao Zhang](https://zwt233.github.io/) and [Bin Cui](https://cuibinpku.github.io/). I collaborate closely with [Shanghai AI Laboratory, OpenDataLab](https://github.com/opendatalab), especially with [Conghui He](https://github.com/yangapku) and [Bin Wang](https://wangbindl.github.io/). Previously, I was a research intern at [ByteDance Seed](https://seed.bytedance.com/zh/) and [Shanghai AI Laboratory](https://www.shlab.org.cn/). I received my B.Eng. degree from Beihang University, EE (`GPA 3.85/4.00`, `Rank 1 / 203`).
+I am currently a Ph.D. student in EECS at Peking University, advised by [Wentao Zhang](https://zwt233.github.io/) and [Bin Cui](https://cuibinpku.github.io/). I collaborate closely with [OpenDataLab](https://github.com/opendatalab), especially with [Conghui He](https://github.com/yangapku) and [Bin Wang](https://wangbindl.github.io/). Previously, I was a research intern at [ByteDance Seed](https://seed.bytedance.com/zh/) and [Shanghai AI Lab](https://www.shlab.org.cn/). I received my B.Eng. degree from Beihang University, EE (`GPA 3.85/4.00`, `Rank 1 / 203`).
 
 My research interests lie in **Large Language Models**, **World Model**, and **Foundation Models**:
 
 1. <span class="topic-label topic-large-language-models">Large Language Models</span> (2026.3-∞): I have been especially focusing on **Long-Horizon Agentic RL**, including the co-optimization of RL algorithms and infrastructure.
 
-2. <span class="topic-label topic-world-model">World Model</span> (2023.9-∞): my recent work has mainly centered around the **OVO** series, especially [**OVO-Bench**](https://openaccess.thecvf.com/content/CVPR2025/papers/Niu_OVO-Bench_How_Far_is_Your_Video-LLMs_from_Real-World_Online_Video_CVPR_2025_paper.pdf).
+2. <span class="topic-label topic-world-model">World Model</span> (2023.9-∞): my recent work has mainly centered around the **OVO** series, especially [**OVO-Bench**](https://openaccess.thecvf.com/content/CVPR2025/papers/Niu_OVO-Bench_How_Far_is_Your_Video-LLMs_from_Real-World_Online_Video_CVPR_2025_paper.pdf). At [ByteDance Seed](https://seed.bytedance.com/zh/), I also worked on video spatiotemporal world modeling in [**Seed1.8**](https://seed.bytedance.com/seed1_8) and [**Seed2.0**](https://seed.bytedance.com/seed2).
 
 3. <span class="topic-label topic-foundation-model">Foundation Model</span> (2024.9-2026.5): my work has mainly centered around the [**MinerU** series](https://github.com/opendatalab/MinerU) (**56.4k** GitHub stars), including [**MinerU 2.0**](/blog/2025/mineru-2-0/), [**MinerU 2.5**](https://arxiv.org/abs/2509.22186), and [**MinerU Diffusion**](https://github.com/opendatalab/MinerU-Diffusion).
