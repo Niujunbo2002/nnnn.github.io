@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/nnnn.github.io/blogs/";
           },
-        },{id: "post-mineru-2-0",
+        },{id: "post-mineru-diffusion",
+        
+          title: "MinerU-Diffusion",
+        
+        description: "Placeholder page for MinerU-Diffusion.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/nnnn.github.io/blog/2026/mineru-diffusion/";
+          
+        },
+      },{id: "post-mineru-2-0",
         
           title: "MinerU 2.0",
         
