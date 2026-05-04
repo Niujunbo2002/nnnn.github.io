@@ -9,7 +9,17 @@
   {% if show_preview %}
     <div class="col col-sm-2 abbr">
       {% if entry.preview %}
-        {% if entry.preview contains '://' %}
+        {% assign preview_is_video = false %}
+        {% if entry.preview contains '.mp4'
+          or entry.preview contains '.webm'
+          or entry.preview contains '.ogg'
+          or entry.preview contains 'github.com/user-attachments/assets'
+        %}
+          {% assign preview_is_video = true %}
+        {% endif %}
+        {% if preview_is_video %}
+          <video class="preview z-depth-1 rounded" src="{{ entry.preview }}" autoplay muted loop playsinline preload="metadata"></video>
+        {% elsif entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
