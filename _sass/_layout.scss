@@ -53,6 +53,17 @@ body.sticky-bottom-footer {
     min-width: 0;
   }
 
+  .research-roadmap {
+    margin: 1.25rem 0 1.35rem;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 0.35rem;
+    }
+  }
+
   .about-sidebar {
     .profile {
       float: none;

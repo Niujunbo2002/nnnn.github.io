@@ -5,6 +5,7 @@ assets/css/main.scss
 assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
+assets/img/research-roadmap.svg
 lighthouse_results/**
 .local/**
 _posts/2015-10-20-math.md

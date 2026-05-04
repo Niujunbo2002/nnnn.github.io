@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 930" role="img" aria-labelledby="title desc">
+  <title id="title">Junbo Niu research roadmap</title>
+  <desc id="desc">Education and research roadmap from Beihang University to Peking University, covering foundation models, world models, LLMs, code agents, and CUA.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a8a8a" />
+    </marker>
+    <style>
+      .heading { font-family: Arial, Helvetica, sans-serif; font-size: 86px; font-weight: 400; fill: #000; }
+      .hint { font-family: Arial, Helvetica, sans-serif; font-size: 46px; font-weight: 700; fill: #777; }
+      .school { font-family: Arial, Helvetica, sans-serif; font-size: 58px; font-weight: 700; fill: #000; }
+      .degree { font-family: Arial, Helvetica, sans-serif; font-size: 44px; font-weight: 400; fill: #a8a8a8; }
+      .period { font-family: Arial, Helvetica, sans-serif; font-size: 55px; font-weight: 400; fill: #000; }
+      .interest { font-family: Arial, Helvetica, sans-serif; font-size: 58px; font-weight: 400; fill: #000; }
+      .box-text { font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: 400; fill: #000; }
+      .box { fill: #fff; stroke: #16313a; stroke-width: 3.5; }
+      .flow { stroke: #8a8a8a; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .red { fill: #e50000; }
+      .blue { fill: #1d63ff; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="930" fill="#fff" />
+
+  <text x="20" y="120" class="heading">About Me</text>
+  <text x="420" y="120" class="hint">(ENTJ)</text>
+
+  <text x="24" y="285" class="school">Peking University</text>
+  <text x="1270" y="285" class="period">2025.09-2030.06</text>
+  <text x="24" y="340" class="degree">Ph.D. Candidate, EECS</text>
+  <text x="24" y="405" class="interest">
+    <tspan class="red">LLM</tspan><tspan>(Modeling / Computer Use and Code Agent)</tspan>
+  </text>
+
+  <text x="24" y="545" class="school">Beihang University</text>
+  <text x="1270" y="545" class="period">2021.09-2025.06</text>
+  <text x="24" y="600" class="degree">B.S., EE</text>
+  <text x="24" y="665" class="interest">
+    <tspan class="blue">Video World Model</tspan><tspan> and </tspan><tspan class="red">Multimodal Foundation Model</tspan>
+  </text>
+
+  <rect x="18" y="810" width="335" height="95" rx="12" class="box" />
+  <text x="72" y="875" class="box-text">Perception</text>
+
+  <rect x="420" y="715" width="335" height="95" rx="12" class="box" />
+  <text x="477" y="780" class="box-text">2D(</text>
+  <text x="557" y="780" class="box-text blue">M-FM</text>
+  <text x="688" y="780" class="box-text">)</text>
+
+  <rect x="420" y="900" width="335" height="95" rx="12" class="box" transform="translate(0 -95)" />
+  <text x="477" y="875" class="box-text">3D(</text>
+  <text x="557" y="875" class="box-text red">V-WM</text>
+  <text x="688" y="875" class="box-text">)</text>
+
+  <rect x="820" y="810" width="570" height="95" rx="12" class="box" />
+  <text x="845" y="875" class="box-text">World Interaction(Digital)</text>
+
+  <rect x="1435" y="715" width="335" height="95" rx="12" class="box" />
+  <text x="1480" y="780" class="box-text">Code Agent</text>
+
+  <rect x="1435" y="900" width="335" height="95" rx="12" class="box" transform="translate(0 -95)" />
+  <text x="1580" y="875" text-anchor="middle" class="box-text">CUA</text>
+
+  <path d="M 353 858 L 420 763" class="flow" />
+  <path d="M 353 858 L 420 858" class="flow" />
+  <path d="M 755 763 L 820 858" class="flow" />
+  <path d="M 755 858 L 820 858" class="flow" />
+  <path d="M 1390 858 L 1435 763" class="flow" />
+  <path d="M 1390 858 L 1435 858" class="flow" />
+</svg>
