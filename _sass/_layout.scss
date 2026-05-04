@@ -255,7 +255,7 @@ body.sticky-bottom-footer {
   font-weight: 800;
 }
 
-.about-page .topic-label {
+.topic-label {
   display: inline-flex;
   align-items: center;
   margin-right: 0.45rem;
@@ -270,19 +270,19 @@ body.sticky-bottom-footer {
   background: rgba(0, 0, 0, 0.03);
 }
 
-.about-page .topic-label.topic-foundation-model {
+.topic-label.topic-foundation-model {
   color: #8a4b08;
   background: rgba(214, 146, 43, 0.12);
   border-color: rgba(214, 146, 43, 0.35);
 }
 
-.about-page .topic-label.topic-world-model {
+.topic-label.topic-world-model {
   color: #0b5c73;
   background: rgba(44, 145, 176, 0.12);
   border-color: rgba(44, 145, 176, 0.35);
 }
 
-.about-page .topic-label.topic-large-language-models {
+.topic-label.topic-large-language-models {
   color: #6a2f8a;
   background: rgba(155, 89, 182, 0.12);
   border-color: rgba(155, 89, 182, 0.35);
