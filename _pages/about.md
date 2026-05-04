@@ -68,9 +68,9 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
     <strong>MinerU2.5</strong>
     <em>ACL 2026 Oral</em>
   </a>
-  <a href="#seedteam2026seed20">
-    <span>World Interaction</span>
-    <strong>Seed2.0</strong>
-    <em>Model Card</em>
+  <a href="#dong2026minerudiffusion">
+    <span>Large Language Models</span>
+    <strong>MinerU-Diffusion</strong>
+    <em>ECCV 2026</em>
   </a>
 </div>
