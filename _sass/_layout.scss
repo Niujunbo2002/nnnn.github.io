@@ -202,6 +202,19 @@ body.sticky-bottom-footer {
     margin-top: 1rem;
   }
 
+  .publication-group-label {
+    margin: 1rem 0 0.55rem;
+    color: var(--global-theme-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
   .publications ol.bibliography li {
     margin-bottom: 0.9rem;
     padding-bottom: 0.65rem;
