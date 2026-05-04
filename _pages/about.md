@@ -69,7 +69,7 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
     <em>ACL 2026 Oral</em>
   </a>
   <a href="#dong2026minerudiffusion">
-    <span>LLM Modeling</span>
+    <span>Foundation Model</span>
     <strong>MinerU-Diffusion</strong>
     <em>ECCV 2026</em>
   </a>
