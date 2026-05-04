@@ -7,7 +7,7 @@
   {% endif %}
 
   {% if show_preview %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-2 abbr {% if page.selected_papers %}selected-preview-col{% endif %}">
       {% if entry.preview %}
         {% assign preview_is_video = false %}
         {% if entry.preview contains '.mp4'
@@ -39,7 +39,10 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if show_preview %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div
+    id="{{ entry.key }}"
+    class="{% if show_preview %}{% if page.selected_papers %}col-sm-7{% else %}col-sm-8{% endif %}{% else %}col-sm-10{% endif %}"
+  >
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
