@@ -1,70 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 930" role="img" aria-labelledby="title desc">
-  <title id="title">Junbo Niu research roadmap</title>
-  <desc id="desc">Education and research roadmap from Beihang University to Peking University, covering foundation models, world models, LLMs, code agents, and CUA.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Research roadmap</title>
+  <desc id="desc">A research roadmap from perception to multimodal foundation models and video world models, then to digital world interaction, code agents, and computer use agents.</desc>
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a8a8a" />
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e" />
     </marker>
     <style>
-      .heading { font-family: Arial, Helvetica, sans-serif; font-size: 86px; font-weight: 400; fill: #000; }
-      .hint { font-family: Arial, Helvetica, sans-serif; font-size: 46px; font-weight: 700; fill: #777; }
-      .school { font-family: Arial, Helvetica, sans-serif; font-size: 58px; font-weight: 700; fill: #000; }
-      .degree { font-family: Arial, Helvetica, sans-serif; font-size: 44px; font-weight: 400; fill: #a8a8a8; }
-      .period { font-family: Arial, Helvetica, sans-serif; font-size: 55px; font-weight: 400; fill: #000; }
-      .interest { font-family: Arial, Helvetica, sans-serif; font-size: 58px; font-weight: 400; fill: #000; }
-      .box-text { font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: 400; fill: #000; }
-      .box { fill: #fff; stroke: #16313a; stroke-width: 3.5; }
-      .flow { stroke: #8a8a8a; stroke-width: 4; fill: none; marker-end: url(#arrow); }
-      .red { fill: #e50000; }
-      .blue { fill: #1d63ff; }
+      .panel {
+        fill: #fbfbfc;
+      }
+
+      .box {
+        fill: #ffffff;
+        stroke: #d8dee6;
+        stroke-width: 1.8;
+      }
+
+      .primary-box {
+        stroke: #b9c4d1;
+      }
+
+      .flow {
+        fill: none;
+        stroke: #8b949e;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrow);
+      }
+
+      .label {
+        fill: #24292f;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+      }
+
+      .subtle {
+        fill: #6a737d;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .blue {
+        fill: #276ef1;
+      }
+
+      .red {
+        fill: #d1242f;
+      }
     </style>
   </defs>
 
-  <rect width="1800" height="930" fill="#fff" />
+  <rect class="panel" x="0" y="0" width="1200" height="360" rx="18" />
 
-  <text x="20" y="120" class="heading">About Me</text>
-  <text x="420" y="120" class="hint">(ENTJ)</text>
+  <rect class="box primary-box" x="48" y="135" width="190" height="90" rx="12" />
+  <text class="label" x="143" y="173" text-anchor="middle">Perception</text>
+  <text class="subtle" x="143" y="202" text-anchor="middle">visual signals</text>
 
-  <text x="24" y="285" class="school">Peking University</text>
-  <text x="1270" y="285" class="period">2025.09-2030.06</text>
-  <text x="24" y="340" class="degree">Ph.D. Candidate, EECS</text>
-  <text x="24" y="405" class="interest">
-    <tspan class="red">LLM</tspan><tspan>(Modeling / Computer Use and Code Agent)</tspan>
-  </text>
+  <rect class="box" x="345" y="62" width="205" height="86" rx="12" />
+  <text class="label" x="447" y="99" text-anchor="middle">2D <tspan class="blue">M-FM</tspan></text>
+  <text class="subtle" x="447" y="127" text-anchor="middle">multimodal foundation model</text>
 
-  <text x="24" y="545" class="school">Beihang University</text>
-  <text x="1270" y="545" class="period">2021.09-2025.06</text>
-  <text x="24" y="600" class="degree">B.S., EE</text>
-  <text x="24" y="665" class="interest">
-    <tspan class="blue">Video World Model</tspan><tspan> and </tspan><tspan class="red">Multimodal Foundation Model</tspan>
-  </text>
+  <rect class="box" x="345" y="212" width="205" height="86" rx="12" />
+  <text class="label" x="447" y="249" text-anchor="middle">3D <tspan class="red">V-WM</tspan></text>
+  <text class="subtle" x="447" y="277" text-anchor="middle">video world model</text>
 
-  <rect x="18" y="810" width="335" height="95" rx="12" class="box" />
-  <text x="72" y="875" class="box-text">Perception</text>
+  <rect class="box primary-box" x="655" y="135" width="255" height="90" rx="12" />
+  <text class="label" x="782" y="173" text-anchor="middle">World Interaction</text>
+  <text class="subtle" x="782" y="202" text-anchor="middle">digital environments</text>
 
-  <rect x="420" y="715" width="335" height="95" rx="12" class="box" />
-  <text x="477" y="780" class="box-text">2D(</text>
-  <text x="557" y="780" class="box-text blue">M-FM</text>
-  <text x="688" y="780" class="box-text">)</text>
+  <rect class="box" x="1010" y="62" width="150" height="86" rx="12" />
+  <text class="label" x="1085" y="113" text-anchor="middle">Code Agent</text>
 
-  <rect x="420" y="900" width="335" height="95" rx="12" class="box" transform="translate(0 -95)" />
-  <text x="477" y="875" class="box-text">3D(</text>
-  <text x="557" y="875" class="box-text red">V-WM</text>
-  <text x="688" y="875" class="box-text">)</text>
+  <rect class="box" x="1010" y="212" width="150" height="86" rx="12" />
+  <text class="label" x="1085" y="263" text-anchor="middle">CUA</text>
 
-  <rect x="820" y="810" width="570" height="95" rx="12" class="box" />
-  <text x="845" y="875" class="box-text">World Interaction(Digital)</text>
-
-  <rect x="1435" y="715" width="335" height="95" rx="12" class="box" />
-  <text x="1480" y="780" class="box-text">Code Agent</text>
-
-  <rect x="1435" y="900" width="335" height="95" rx="12" class="box" transform="translate(0 -95)" />
-  <text x="1580" y="875" text-anchor="middle" class="box-text">CUA</text>
-
-  <path d="M 353 858 L 420 763" class="flow" />
-  <path d="M 353 858 L 420 858" class="flow" />
-  <path d="M 755 763 L 820 858" class="flow" />
-  <path d="M 755 858 L 820 858" class="flow" />
-  <path d="M 1390 858 L 1435 763" class="flow" />
-  <path d="M 1390 858 L 1435 858" class="flow" />
+  <path class="flow" d="M 238 180 C 282 180 296 105 345 105" />
+  <path class="flow" d="M 238 180 C 282 180 296 255 345 255" />
+  <path class="flow" d="M 550 105 C 604 105 602 180 655 180" />
+  <path class="flow" d="M 550 255 C 604 255 602 180 655 180" />
+  <path class="flow" d="M 910 180 C 954 180 958 105 1010 105" />
+  <path class="flow" d="M 910 180 C 954 180 958 255 1010 255" />
 </svg>

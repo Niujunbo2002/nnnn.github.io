@@ -54,13 +54,15 @@ body.sticky-bottom-footer {
   }
 
   .research-roadmap {
-    margin: 1.25rem 0 1.35rem;
+    margin: 1rem auto 1.45rem;
+    max-width: 920px;
 
     img {
       display: block;
       width: 100%;
       height: auto;
       border-radius: 0.35rem;
+      border: 1px solid var(--global-divider-color);
     }
   }
 
