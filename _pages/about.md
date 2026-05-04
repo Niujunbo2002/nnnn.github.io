@@ -51,26 +51,3 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
     <img src="{{ '/assets/img/research-roadmap.svg' | relative_url }}" alt="">
   </a>
 </figure>
-
-<div class="roadmap-work-links" aria-label="Representative works connected to the research roadmap">
-  <a href="#niu2025nativevisual">
-    <span>Perception</span>
-    <strong>NativeRes-LLaVA</strong>
-    <em>CVPR 2026</em>
-  </a>
-  <a href="#niu2025ovobench">
-    <span>World Model</span>
-    <strong>OVO-Bench</strong>
-    <em>CVPR 2025</em>
-  </a>
-  <a href="#he2025mineru2">
-    <span>Foundation Model</span>
-    <strong>MinerU2.5</strong>
-    <em>ACL 2026 Oral</em>
-  </a>
-  <a href="#dong2026minerudiffusion">
-    <span>Foundation Model</span>
-    <strong>MinerU-Diffusion</strong>
-    <em>ECCV 2026</em>
-  </a>
-</div>
