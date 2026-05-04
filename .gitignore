@@ -5,6 +5,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .legacy-static-backup
+.local
 .local-gems
 .local-ruby
 .local-ruby-build
