@@ -42,7 +42,7 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
     <span>Building Multimodal Models for Real-World Complexity</span>
   </p>
   <p class="roadmap-summary">
-    My work connects high-fidelity perception, multimodal foundation models, video world modeling, and digital agents for long-horizon real-world tasks.
+    I focus on high-fidelity perception, multimodal foundation models, video world modeling, and digital agents for long-horizon real-world tasks.
   </p>
 </div>
 
