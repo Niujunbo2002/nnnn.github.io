@@ -232,6 +232,18 @@ body.sticky-bottom-footer {
     line-height: 1.4;
   }
 
+  .publication-topic-labels {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+    margin-right: 0.45rem;
+    vertical-align: middle;
+
+    .topic-label {
+      margin-right: 0;
+    }
+  }
+
   .publications .links {
     margin-top: 0.45rem;
   }

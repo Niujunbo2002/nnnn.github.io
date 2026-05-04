@@ -179,15 +179,17 @@
     {% endif %}
     <div class="periodical">
       {% if page.show_publication_topics %}
-        {% if entry.topic_labels %}
-          {% assign topic_labels = entry.topic_labels | split: ';' %}
-          {% for topic_label in topic_labels %}
-            {% assign topic_label = topic_label | strip %}
-            <span class="topic-label topic-{{ topic_label | slugify }}">{{- topic_label -}}</span>
-          {% endfor %}
-        {% elsif entry.topic_label %}
-          <span class="topic-label topic-{{ entry.topic_label | slugify }}">{{- entry.topic_label -}}</span>
-        {% endif %}
+        <span class="publication-topic-labels">
+          {% if entry.topic_labels %}
+            {% assign topic_labels = entry.topic_labels | split: ';' %}
+            {% for topic_label in topic_labels %}
+              {% assign topic_label = topic_label | strip %}
+              <span class="topic-label topic-{{ topic_label | slugify }}">{{- topic_label -}}</span>
+            {% endfor %}
+          {% elsif entry.topic_label %}
+            <span class="topic-label topic-{{ entry.topic_label | slugify }}">{{- entry.topic_label -}}</span>
+          {% endif %}
+        </span>
       {% endif %}
       {{ periodical | strip }}
     </div>
