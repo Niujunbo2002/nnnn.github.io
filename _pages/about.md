@@ -56,7 +56,7 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
   <a href="#niu2025nativevisual">
     <span>Perception</span>
     <strong>NativeRes-LLaVA</strong>
-    <em>CVPR 2026 Findings</em>
+    <em>CVPR 2026</em>
   </a>
   <a href="#niu2025ovobench">
     <span>World Model</span>
