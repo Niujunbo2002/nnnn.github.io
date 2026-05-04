@@ -28,7 +28,7 @@ I am currently a Ph.D. student in EECS at Peking University, advised by [Wentao 
 
 My research interests lie in **Large Language Models**, **World Model**, and **Foundation Models**:
 
-1. <span class="topic-label topic-large-language-models">Large Language Models</span> (2026.3-∞): Focus on **LLM** (**UT Modeling Diffusion-LM && Loop-LM**) and **Computer Use Agent**.
+1. <span class="topic-label topic-large-language-models">Large Language Models</span> (2026.3-∞): Focus on **LLM** (**UT Modeling Diffusion-LM && Loop-LM**) and **Computer Use Agent**. Representative work: [**MinerU Diffusion**](#dong2026minerudiffusion).
 
 2. <span class="topic-label topic-world-model">World Model</span> (2023.9-∞): my recent work has mainly centered around the **OVO** series, especially [**OVO-Bench**](https://openaccess.thecvf.com/content/CVPR2025/papers/Niu_OVO-Bench_How_Far_is_Your_Video-LLMs_from_Real-World_Online_Video_CVPR_2025_paper.pdf). At [ByteDance Seed](https://seed.bytedance.com/zh/), I also worked on video spatiotemporal world modeling in [**Seed1.8**](https://seed.bytedance.com/seed1_8) and [**Seed2.0**](https://seed.bytedance.com/seed2).
 
