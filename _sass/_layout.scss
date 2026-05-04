@@ -55,7 +55,11 @@ body.sticky-bottom-footer {
 
   .research-roadmap {
     margin: 1rem auto 1.45rem;
-    max-width: 920px;
+    max-width: 1080px;
+
+    a {
+      display: block;
+    }
 
     img {
       display: block;
