@@ -38,7 +38,7 @@
 
       .subtle {
         fill: #6a737d;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
       }
 
@@ -58,11 +58,11 @@
   <text class="label" x="143" y="173" text-anchor="middle">Perception</text>
   <text class="subtle" x="143" y="202" text-anchor="middle">visual signals</text>
 
-  <rect class="box" x="345" y="62" width="205" height="86" rx="12" />
+  <rect class="box" x="320" y="62" width="255" height="86" rx="12" />
   <text class="label" x="447" y="99" text-anchor="middle">2D <tspan class="blue">M-FM</tspan></text>
   <text class="subtle" x="447" y="127" text-anchor="middle">multimodal foundation model</text>
 
-  <rect class="box" x="345" y="212" width="205" height="86" rx="12" />
+  <rect class="box" x="320" y="212" width="255" height="86" rx="12" />
   <text class="label" x="447" y="249" text-anchor="middle">3D <tspan class="red">V-WM</tspan></text>
   <text class="subtle" x="447" y="277" text-anchor="middle">video world model</text>
 
@@ -77,10 +77,10 @@
   <text class="label" x="1085" y="249" text-anchor="middle">Computer Use</text>
   <text class="label" x="1085" y="278" text-anchor="middle">Agent</text>
 
-  <path class="flow" d="M 238 180 C 282 180 296 105 345 105" />
-  <path class="flow" d="M 238 180 C 282 180 296 255 345 255" />
-  <path class="flow" d="M 550 105 C 604 105 602 180 655 180" />
-  <path class="flow" d="M 550 255 C 604 255 602 180 655 180" />
+  <path class="flow" d="M 238 180 C 282 180 284 105 320 105" />
+  <path class="flow" d="M 238 180 C 282 180 284 255 320 255" />
+  <path class="flow" d="M 575 105 C 616 105 612 180 655 180" />
+  <path class="flow" d="M 575 255 C 616 255 612 180 655 180" />
   <path class="flow" d="M 910 180 C 954 180 958 105 1010 105" />
   <path class="flow" d="M 910 180 C 954 180 958 255 990 255" />
 </svg>

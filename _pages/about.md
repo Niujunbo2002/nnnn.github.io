@@ -36,6 +36,9 @@ My research interests lie in **Large Language Models**, **World Model**, and **F
 
 ### Research Roadmap
 
+**From Perception to World Interaction:**<br>
+**Building Multimodal Models for Real-World Complexity**
+
 <figure class="research-roadmap">
   <a href="{{ '/assets/img/research-roadmap.svg' | relative_url }}">
     <img src="{{ '/assets/img/research-roadmap.svg' | relative_url }}" alt="Research roadmap covering foundation models, world models, LLMs, code agents, and computer use agents">
