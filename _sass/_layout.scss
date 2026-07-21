@@ -275,7 +275,9 @@ body.sticky-bottom-footer {
   }
 
   .publications .periodical.conference-venue,
-  .publications .periodical.conference-venue em {
+  .publications .periodical.conference-venue em,
+  .publications .periodical.conference-venue span,
+  .publications .periodical.conference-venue strong {
     color: var(--global-theme-color);
   }
 

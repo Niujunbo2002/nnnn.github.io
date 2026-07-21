@@ -157,7 +157,11 @@
 
     <!-- Journal/Book title and date -->
     {% if entry.display_venue %}
-      {% capture periodical %}<em>{{ entry.display_venue }}</em>{% endcapture %}
+      {% if entry.oral_presentation %}
+        {% capture periodical %}<span>{{ entry.display_venue }}</span> <strong>Oral Presentation</strong>{% endcapture %}
+      {% else %}
+        {% capture periodical %}<em>{{ entry.display_venue }}</em>{% endcapture %}
+      {% endif %}
     {% else %}
       {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
       {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
