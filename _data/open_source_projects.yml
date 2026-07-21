@@ -1,0 +1,30 @@
+- title: MinerU
+  repo: opendatalab/MinerU
+  url: https://github.com/opendatalab/MinerU
+  description: Transforms complex PDFs and Office documents into LLM-ready Markdown and JSON for agentic workflows.
+  language: Python
+  stars: 75.3k
+  role: "Co-Contributor & Co-First Author"
+
+- title: MinerU-Diffusion
+  repo: opendatalab/MinerU-Diffusion
+  url: https://github.com/opendatalab/MinerU-Diffusion
+  description: An ECCV 2026 diffusion-based document OCR framework with block-level parallel decoding.
+  language: Python
+  stars: "623"
+  role: "Co-Contributor & Co-First Author"
+
+- title: OVO-Bench
+  repo: JoeLeelyf/OVO-Bench
+  url: https://github.com/JoeLeelyf/OVO-Bench
+  description: A CVPR 2025 benchmark for evaluating real-world online video understanding in VideoLLMs.
+  language: Python
+  stars: "153"
+  role: "Co-Contributor & Co-First Author"
+
+- title: OpenClaw-RL
+  repo: Gen-Verse/OpenClaw-RL
+  url: https://github.com/Gen-Verse/OpenClaw-RL
+  description: Train general-purpose agents simply through natural-language interaction.
+  language: Python
+  stars: 5.6k

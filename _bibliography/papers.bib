@@ -1,11 +1,29 @@
 ---
 ---
 
+@inproceedings{zheng2026variationalcoevolution,
+  abbr          = {COLM},
+  title         = {Variational Co-Evolution via Reinforcement Learning},
+  author        = {Q Zheng* and H Jin* and J Niu* and Y Wang and W Zhang and R Zhang},
+  booktitle     = {Proceedings of the Conference on Language Modeling},
+  display_venue = {COLM 2026},
+  conference    = {true},
+  topic_label   = {Large Language Models},
+  year          = {2026},
+  pdf           = {https://openreview.net/pdf?id=x2pleWjnM9},
+  html          = {https://openreview.net/forum?id=x2pleWjnM9},
+  selected      = {true},
+  show_all_authors = {true},
+  abstract      = {Despite recent progress, large language models still exhibit limitations and remain brittle on challenging reasoning tasks, as effective reasoning depends not only on the underlying solution policy but also on the capability to construct prompts that reliably elicit correct reasoning. Most existing methods optimize these two components separately, focusing either on prompt rewriting or solely on strengthening the solving policy, which makes it hard to build a persistent, mutually reinforcing loop between prompting and solution generation. To address this limitation, we propose Variational Co-Evolution (VCE), a novel co-evolving framework that jointly improves prompt generation and solution generation with the explicit goal of strengthening both capabilities simultaneously. VCE formulates co-evolution through a reinforcement learning framework with a variational inference, treating prompts as adaptive decisions jointly optimized with solution policies. By enabling coherent updates of prompting and reasoning under a unified objective, VCE provides a stable and scalable paradigm for co-evolving prompts and solvers on challenging reasoning tasks. Experiments across multiple benchmarks demonstrate strong and consistent gains, validating the effectiveness of co-evolution for improving both prompt construction and solution accuracy.}
+}
+
 @article{dong2026minerudiffusion,
+  abbr          = {ECCV},
   title         = {MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding},
   author        = {H Dong* and J Niu* and B Wang and W Zeng and W Zhang and C He},
-  journal       = {Technical Report},
-  display_venue = {Technical Report},
+  journal       = {Proceedings of the European Conference on Computer Vision},
+  display_venue = {ECCV 2026},
+  conference    = {true},
   topic_label   = {Foundation Model},
   topic_labels  = {Foundation Model;Large Language Models},
   preview       = {mineru-diffusion.gif},
@@ -15,11 +33,12 @@
   code          = {https://github.com/opendatalab/MinerU-Diffusion},
   video         = {https://github.com/user-attachments/assets/bf3e73a1-6d24-48b5-9dbe-94efee3993e0},
   selected      = {true},
+  show_all_authors = {true},
   abstract      = {MinerU-Diffusion reformulates document OCR as inverse rendering and uses diffusion decoding for document parsing.}
 }
 
 @article{wang2026mineru25pro,
-  title         = {MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale},
+  title         = {MinerU 2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale},
   author        = {B Wang* and T He* and J Niu* and F Wu and Z Zhao and T Chu and Y Qu and Z Jin and W Zeng and Z Miao and B Xu and M Cai and J Qiu and Q Zhang and D Ma and Y Sun and H Dong and W Zhang and J Xiao and J Shi and P Liao and X Zhao and H Zhong and L Wei and J Yu and J Yang and W Li and S Wang and Q Wu and X Zhou and W Li and Z Li and Z Tu and J Wu and L Wu and C Xu and K Chen and W Zhang and Y Qiao and B Zhou and D Lin and C He},
   year          = {2026},
   journal       = {Technical Report},
@@ -35,30 +54,34 @@
 @article{niu2025ovobench,
   abbr        = {CVPR},
   title       = {OVOBench: How Far is Your Video-LLMs from Real-World Online Video Understanding?},
-  author      = {J Niu* and Y Li* and Z Miao and C Ge and Y Zhou and Q He and X Dong and H Duan and S Ding and others},
+  author      = {J Niu* and Y Li* and Z Miao and C Ge and Y Zhou and Q He and X Dong and H Duan and S Ding and R Qian and P Zhang and Y Zang and Y Cao and C He and J Wang},
   year        = {2025},
   journal     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   display_venue = {CVPR 2025},
+  conference  = {true},
   topic_label = {World Model},
   preview     = {ovobench.png},
   pdf         = {https://openaccess.thecvf.com/content/CVPR2025/papers/Niu_OVO-Bench_How_Far_is_Your_Video-LLMs_from_Real-World_Online_Video_CVPR_2025_paper.pdf},
   code        = {https://github.com/JoeLeelyf/OVO-Bench},
   selected    = {true},
+  show_all_authors = {true},
   abstract    = {A benchmark for evaluating real-world online video understanding in VideoLLMs, designed to close the gap between practical online processing and human-level understanding.}
 }
 
 @article{niu2025nativevisual,
   abbr        = {ArXiv},
   title       = {Native Visual Understanding: Resolving Resolution Dilemmas in Vision-Language Models},
-  author      = {J Niu* and Y Zheng* and Z Miao and H Dong and C Ge and H Liang and M Lu and B Zeng and Q Zheng and others},
+  author      = {J Niu* and Y Zheng* and Z Miao and H Dong and C Ge and H Liang and M Lu and B Zeng and Q Zheng and C He and W Zhang},
   year        = {2025},
   journal     = {CVPR 2026},
   display_venue = {CVPR 2026},
+  conference  = {true},
   topic_label = {Foundation Model},
   preview     = {nativeres.png},
   pdf         = {https://arxiv.org/pdf/2506.12776},
   code        = {https://github.com/Niujunbo2002/NativeRes-LLaVA},
   selected    = {true},
+  show_all_authors = {true},
   abstract    = {A framework for native-resolution visual encoding that preserves fine-grained visual cues and improves open-source VLMs on high-fidelity visual understanding tasks.}
 }
 
@@ -86,7 +109,7 @@
   modelcard     = {https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf},
   website       = {https://seed.bytedance.com/seed1_8},
   blog          = {https://seed.bytedance.com/en/blog/official-release-of-seed1-8-a-generalized-agentic-model},
-  selected      = {true},
+  selected      = {false},
   abstract      = {Seed1.8 is a generalized agentic model with multimodal input support, integrating search, code, and GUI agent capabilities for complex real-world workflows.}
 }
 
@@ -101,16 +124,17 @@
   modelcard     = {https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf},
   website       = {https://seed.bytedance.com/seed2},
   blog          = {https://seed.bytedance.com/en/blog/seed2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83},
-  selected      = {true},
+  selected      = {false},
   abstract      = {Seed2.0 is a production-oriented multimodal agent model series that improves visual understanding, complex instruction execution, long-horizon task performance, and reasoning efficiency.}
 }
 
 @article{he2025mineru2,
-  title         = {MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing},
+  title         = {MinerU 2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing},
   author        = {J Niu* and Z Liu* and Z Gu* and B Wang and L Ouyang and Z Zhao and T Chu and T He and F Wu and others},
   year          = {2025},
   journal       = {ACL 2026 Oral},
   display_venue = {ACL 2026 Oral},
+  conference    = {true},
   topic_label   = {Foundation Model},
   preview       = {mineru25-overview.png},
   pdf           = {https://arxiv.org/abs/2509.22186},
@@ -123,8 +147,8 @@
   title         = {MinerU 2.0: A End-to-End Vision-Language Model for High-Speed and High-Precision Document Parsing},
   author        = {J Niu* and Z Liu* and Z Gu* and B Wang and L Ouyang and Z Zhao and T Chu and T He and F Wu and others},
   year          = {2025},
-  journal       = {Model Card},
-  display_venue = {Model Card},
+  journal       = {Technical Report},
+  display_venue = {Technical Report},
   topic_label   = {Foundation Model},
   preview       = {hhhh.gif},
   website       = {https://opendatalab.github.io/MinerU/},

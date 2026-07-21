@@ -59,9 +59,11 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
+      {% unless entry.show_all_authors %}
+        {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+          {% assign author_array_limit = site.max_author_limit %}
+        {% endif %}
+      {% endunless %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
@@ -189,7 +191,7 @@
       {% assign entrytype_text = entrytype | strip_html | strip %}
       {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     {% endif %}
-    <div class="periodical">
+    <div class="periodical{% if entry.conference %} conference-venue{% endif %}">
       {% if page.show_publication_topics %}
         <span class="publication-topic-labels">
           {% if entry.topic_labels %}

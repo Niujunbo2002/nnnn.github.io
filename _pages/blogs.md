@@ -2,7 +2,7 @@
 layout: page
 permalink: /blogs/
 title: blogs
-description: notes, readings, and project logs.
+description:
 nav: true
 nav_order: 1
 ---

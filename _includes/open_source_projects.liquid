@@ -1,0 +1,25 @@
+<div class="project-grid">
+  {% for project in site.data.open_source_projects %}
+    <a class="project-card" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+      <div class="project-card-header">
+        <strong>{{ project.title }}</strong>
+        <div class="project-card-stats">
+          <span class="project-stars" aria-label="{{ project.stars }} GitHub stars">
+            <span class="project-star-icon" aria-hidden="true">★</span>
+            {{ project.stars }}
+          </span>
+          <span class="project-external" aria-hidden="true">↗</span>
+        </div>
+      </div>
+      <div class="project-repo">{{ project.repo }}</div>
+      {% if project.role %}
+        <div class="project-role">{{ project.role }}</div>
+      {% endif %}
+      <p>{{ project.description }}</p>
+      <div class="project-meta">
+        <span class="project-language-dot" aria-hidden="true"></span>
+        {{ project.language }}
+      </div>
+    </a>
+  {% endfor %}
+</div>

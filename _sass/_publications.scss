@@ -57,6 +57,7 @@
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+          font-family: v.$label-font-family;
 
           a {
             color: white;
@@ -127,6 +128,7 @@
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
@@ -147,6 +149,7 @@
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+          font-family: v.$label-font-family;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -238,7 +241,12 @@
 
 .publications .periodical {
   color: var(--global-text-color-light);
+  font-family: v.$label-font-family;
   margin-top: 0.15rem;
+
+  em {
+    font-style: normal;
+  }
 }
 
 @media (max-width: 576px) {

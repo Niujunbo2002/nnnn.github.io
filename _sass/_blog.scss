@@ -101,6 +101,13 @@
 }
 
 .post {
+  .post-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

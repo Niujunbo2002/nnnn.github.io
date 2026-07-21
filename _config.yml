@@ -278,7 +278,7 @@ display_categories: []
 
 scholar:
   last_name: [Niu]
-  first_name: [Junbo]
+  first_name: [Junbo, J]
 
   style: apa
   locale: en
@@ -323,6 +323,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    conference,
     dimensions,
     display_venue,
     eprint,
@@ -335,6 +336,7 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    show_all_authors,
     slides,
     supp,
     video,
@@ -460,7 +462,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=JetBrains+Mono:400,500,600,700|Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
