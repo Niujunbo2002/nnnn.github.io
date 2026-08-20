@@ -1,0 +1,292 @@
+%-------------------------
+% Resume in Latex
+% Author : AlgoUniversity
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{xcolor}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{Black}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{Black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% Fixed-width venue label: the box is INSIDE the brackets, so both [ and ] align
+% Width = widest label among "Tech Report" and the longest venue name.
+\newlength{\venuewidth}
+\newlength{\venuetmp}
+\settowidth{\venuewidth}{\small\textbf{Tech Report}}
+\settowidth{\venuetmp}{\small\textbf{COLM 2026}}
+\ifdim\venuetmp>\venuewidth \setlength{\venuewidth}{\venuetmp}\fi
+\newcommand{\venue}[1]{\textbf{[\makebox[\venuewidth][l]{#1}]}\hspace{2pt}}
+% Natural-width variant: for labels longer than the box (e.g. "ACL 2026 Oral"),
+% so that one long label does not widen all the others.
+\newcommand{\venuewide}[1]{\textbf{[#1]}\hspace{2pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Junbo Niu} \\ \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ 18810092213~ \href{mailto:jbniu25@stu.pku.edu.cn}{\raisebox{-0.2\height}\faEnvelope\  \underline{jbniu25@stu.pku.edu.cn}} ~
+ \href{https://niujunbo2002.github.io/nnnn.github.io/}{\raisebox{-0.2\height}\faBookmark\ \underline{Personal Site}}  ~
+  \href{https://scholar.google.com/citations?user=MIt0UGUAAAAJ}{\raisebox{-0.2\height}\faGraduationCap\ \underline{Google Scholar}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{-10pt}
+%-----------EDUCATION-----------
+% \section{Education}
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {BS, Department of Automation at Beihang University}{2021 - 2025(Expected)}{GPA: 3.84/4.00  ,Rank: 1/203     ,Top1-\%}{}
+% {Phd, Department of Automation at Beihang University}{2025.09(Expected)}
+% % I will be pursuing a PhD in EECS at Peking University starting in September 2025, advised by Prof.
+% % \vspace{-15pt}
+% % \resumeSubheading
+% % {}{}{(Completed two years' required courses in one year.)}{}
+
+% \resumeSubHeadingListEnd
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Peking University}{Beijing, China}
+{Ph.D. Candidate, \textbf{EECS}}{2025.09 -- 2030.06}
+
+\resumeSubheading
+{Beihang University}{Beijing, China}
+{B.S, \textbf{EE} \ $|$ \ GPA: 3.85/4.00, Rank: 1/203 (Top 1\%)}{2021.09 -- 2025.06}
+
+
+\resumeSubHeadingListEnd
+
+% -----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{ByteDance Seed}{2025.09 -- 2026.04}
+{Research Intern at Multimodal Interaction \& World Model (Seed1.6/1.8/2.0)}{}
+\vspace{-6pt}
+\item[] \small Focus on \textbf{Video World Model}: spatiotemporal world modeling, video reasoning, and agentic reasoning via VideoCut.
+\vspace{2pt}
+
+\resumeSubheading
+{Shanghai AI Lab}{2024.06 -- 2025.09}
+{Research Intern at Large Model Center (MinerU1.0/2.0/2.5/2.5-Pro/Diffusion/HTML)}{}
+\vspace{-6pt}
+\item[] \small Focus on \textbf{Multimodal Foundation Model}: long-context Video-LLMs, web extraction, and high-precision OCR.
+\vspace{2pt}
+
+\resumeSubHeadingListEnd
+
+\section{Selected Publications (\textit{* denotes equal contribution})}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{\venue{COLM 2026} \textbf{\textcolor{blue}{VCE}: Variational Co-Evolution via Reinforcement Learning}}{~}
+\resumeItemListStart
+\resumeItem{Q. Zheng\textsuperscript{*}, H. Jin\textsuperscript{*}, \textbf{Junbo Niu}\textsuperscript{*}, Y. Wang, W. Zhang, R. Zhang}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{ECCV 2026} \textbf{\href{https://github.com/opendatalab/MinerU-Diffusion}{\textcolor{blue}{MinerU-Diffusion}}: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding}}{~}
+\resumeItemListStart
+\resumeItem{ Hejun Dong\textsuperscript{*},\textbf{Junbo Niu}\textsuperscript{*‡} (Project Lead), Bin Wang, Wentao Zeng, Wenwei Zhang, Conghui He \href{https://github.com/opendatalab/MinerU-Diffusion}{\textcolor{blue}{\textbf{[GitHub 0.6K \faStar]}}}}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venuewide{NeurIPS 2026} \textbf{\href{https://arxiv.org/abs/2604.04771}{\textcolor{blue}{MinerU 2.5-Pro}}: Pushing the Limits of Data-Centric Document Parsing at Scale}}{~}
+\resumeItemListStart
+\resumeItem{ Bin Wang\textsuperscript{*}, Tao He\textsuperscript{*}, \textbf{Junbo Niu}\textsuperscript{*}, \textit{et al.}, Dahua Lin, Conghui He}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venuewide{ACL 2026 Oral} \textbf{\href{https://arxiv.org/abs/2509.22186}{\textcolor{blue}{MinerU 2.5}}: Decoupled Vision-Language Model for High-Resolution Document Parsing}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu}, Zhenyu Liu\textsuperscript{*}, Zhihao Gu\textsuperscript{*}, \textit{et al.}, Wentao Zhang, Conghui He \href{https://github.com/opendatalab/MinerU}{\textcolor{blue}{\textbf{[GitHub 78.0K \faStar]}}}}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{Tech Report} \textbf{\href{https://github.com/opendatalab/MinerU}{\textcolor{blue}{MinerU 2.0}}: End-to-End VLM for High-Speed and Precision Document Parsing}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu}, Zhenyu Liu\textsuperscript{*}, Zhihao Gu\textsuperscript{*}, \textit{et al.}, Wentao Zhang, Conghui He}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{CVPR 2026} \textbf{\href{https://arxiv.org/pdf/2506.12776}{\textcolor{blue}{Native Visual Understanding}}: Resolving Resolution Dilemmas in Vision-Language Models}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu}, Yuanhong Zheng\textsuperscript{*}, Ziyang Miao, \textit{et al.}, Conghui He, Wentao Zhang}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{CVPR 2025} \textbf{\href{https://openaccess.thecvf.com/content/CVPR2025/papers/Niu_OVO-Bench_How_Far_is_Your_Video-LLMs_from_Real-World_Online_Video_CVPR_2025_paper.pdf}{\textcolor{blue}{OVO-Bench}}: How Far is Your Video-LLMs from Real-World Online Video Understanding?}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu}, Yifei Li\textsuperscript{*}, Ziyang Miao, \textit{et al.}, Conghui He, Jiaqi Wang \href{https://github.com/JoeLeelyf/OVO-Bench}{\textcolor{blue}{\textbf{[GitHub 0.2K \faStar]}}}}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{Tech Report} \textbf{\href{https://arxiv.org/abs/2605.25979}{\textcolor{blue}{LLaVA-OneVision-2}}: Towards Next-Generation Perceptual Intelligence}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu} and LLaVA-OneVision Team \href{https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2}{\textcolor{blue}{\textbf{[GitHub 1.2K \faStar]}}}}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{Tech Report} \textbf{\href{https://arxiv.org/abs/2607.00248}{\textcolor{blue}{Seed 2.0}}: Towards Intelligence Frontier for Real-World Complexity}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu} and ByteDance Seed Team}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\venue{Tech Report} \textbf{\href{https://arxiv.org/abs/2603.20633}{\textcolor{blue}{Seed 1.8}}: Towards Generalized Real-World Agency}}{~}
+\resumeItemListStart
+\resumeItem{\textbf{Junbo Niu} and ByteDance Seed Team}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% \vspace{5pt}
+% {\footnotesize (*) denotes equal contribution}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+
+\resumeProjectHeading{\textbf{MinerU (78.0K GitHub stars, Core Contributor in Data/Modeling/Training/Infra.)} {~\href{https://mineru.net/}\faGithub}}{2024.09 – 2026.05}
+\resumeItemListStart
+\resumeItem{Document parsing for LLMs; built the \textbf{end-to-end OCR model} and \textbf{core training framework}.}
+\resumeItemListEnd
+
+\vspace{-15pt}
+
+\resumeProjectHeading{\textbf{DataFlow (3.2K GitHub stars, Contributor.)} {~\href{https://github.com/OpenDCAI/DataFlow}\faGithub}}{2024.06 – now}
+\resumeItemListStart
+\resumeItem{All-in-one LLM data toolkit; proposed \textbf{DataCoT} and the large-scale video data pipeline.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-16pt}
+\section{Honours and Awards}
+
+
+\noindent
+\begin{tabularx}{\textwidth}{Xr}
+  Outstanding student of Beihang University& 09/2022 \\
+  National Scholarship, (Ministry of Education, People's Republic of China) & 12/2024 \\
+\end{tabularx}
+
+\end{document}
